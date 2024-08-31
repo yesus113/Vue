@@ -1,17 +1,26 @@
 <template>
   <div class="sidebar">
     <h2>Barra Lateral</h2>
-    <router-link to="/Contador">Contador</router-link>
-    <router-link to="/ListaDeTareas">ListaDeTareas</router-link>
+    <ul>
+      <li>
+        <router-link to="/Contador">Contador</router-link>
+      </li>
+      <li>
+        <router-link to="/ListaDeTareas">Lista De Tareas</router-link>
+      </li>
+      <li><router-link to="/h">Hola</router-link></li>
+    </ul>
+
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+</script>
 
-<style >
-  .sidebar{
-    width: 200px;
-    background: white;
-    padding: 20px;
-  }
+<style>
+.sidebar {
+  width: 200px;
+  background: white;
+  padding: 20px;
+}
 </style>
